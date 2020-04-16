@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body onload="myFunction1()">
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Home</a>
+    <a href="s_application.html" >Apply</a>
+    <a href="cources.html">Courses</a>
+    <a href="fee.html" >Fee-Structure</a>
+    <a href="facilities.html">Rules/Facilities</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="about_us.html">About Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+
+
+
+    <div class="cardBox">
+        <div class="card">
+            <div class="card-front">
+                <div class="content">
+                    <img src="./img/logo1.jpeg">
+                    <h3>Solutions Point</h3>
+                    <h3>"Learn With Fun"</h3>
+                </div> 
+            </div>
+            
+            <div class="card-back">
+                <div class="content">
+                    <div><a href="s_application.html">Apply</a></div>
+                    <div><a href="contact.html">Contact</a></div>
+                    <div><a href="fee.html">Fee Structure</a></div>
+                    <div><a href="cources.html">Courses</a></div>
+                    <div><a href="facilities.html">Facilities</a></div>
+                    <div><a href="about_us.html">About-Us</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div style="width: 100%; background-color: #6ff1b244; text-align: center; position: fixed;bottom:0;">
+        <p> <i class="fa fa-copyright" aria-hidden="true"></i>AKM</p>
+      </div>
+  
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+
+    <script>
+        function myFunction1() {
+          alert("Click On The Card");
+        }
+    </script>
+
+</body>
+</html>

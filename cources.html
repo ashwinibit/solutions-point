@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <style>
+        body{
+            font-family: 'Roboto';
+            margin: 0;
+            background: rgb(20,213,99);
+            background: linear-gradient(90deg, rgba(20,213,99,1) 0%, rgba(20,204,204,1) 59%, rgba(20,180,213,1) 100%);
+        }
+.topnav {
+    overflow: hidden;
+    background: rgb(68,195,34);
+  background: linear-gradient(45deg, rgba(68,195,34,0.9962184702982756) 10%, rgba(255,207,0,1) 70%);
+    margin: 0;
+    z-index: 1;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .topnav a.active {
+    background-color: rgb(108, 0, 250);
+    color: white;
+  }
+
+  .topnav .icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+
+  /* table start */
+
+  table {
+  border-spacing: 1;
+  border-collapse: solid;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top:80px;
+}
+table * {
+  position: relative;
+
+}
+table td, table th {
+  padding-left: 8px;
+  border: 4px solid rgb(1, 245, 184);
+}
+table thead tr {
+  height: 60px;
+  background: #FFED86;
+  font-size: 16px;
+}
+table tbody tr {
+  height: 48px;
+  border-bottom: 1px solid #E3F1D5;
+}
+table tbody tr:last-child {
+  border: 0;
+}
+table td, table th {
+  text-align: center;
+}
+table td.l, table th.l {
+  text-align: right;
+}
+table td.c, table th.c {
+  text-align: center;
+}
+table td.r, table th.r {
+  text-align: center;
+}
+
+@media screen and (max-width: 35.5em) {
+  table {
+    display: block;
+  }
+  table > *, table tr, table td, table th {
+    display: block;
+  }
+  table thead {
+    display: none;
+  }
+  table tbody tr {
+    height: auto;
+    padding: 8px 0;
+  }
+  table tbody tr td {
+    padding-left: 45%;
+    margin-bottom: 12px;
+  }
+  table tbody tr td:last-child {
+    margin-bottom: 0;
+  }
+  table tbody tr td:before {
+    position: absolute;
+    font-weight: 700;
+    width: 40%;
+    left: 10px;
+    top: 0;
+  }
+  table tbody tr td:nth-child(1):before {
+    content: "Course";
+  }
+  table tbody tr td:nth-child(2):before {
+    content: "Description";
+  }
+
+}
+blockquote {
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+  /* table end */
+
+
+
+    </style>
+</head>
+<body>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="s_application.html" >Apply</a>
+    <a href="cources.html" class="active">Courses</a>
+    <a href="fee.html" >Fee-Structure</a>
+    <a href="facilities.html">Rules/Facilities</a>
+    <a href="contact.html" >Contact Us</a>
+    <a href="about_us.html" >About Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+</div>
+<!-- body -->
+    
+<table>
+    <thead>
+      <tr>
+        <th>Course</th>
+        <th>Descripton</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CAPSULE COURSE</td>
+        <td>
+          If your exams are near and you don’t have time to study even for passing marks, then this course is for you.
+          This course teaches you some tactics to overcome your exam fear.
+          In which specific topics will be discussed with you, by which at least you can gain passing marks instead of big failure and we will discuss your next year well studying schedule so you could not face these types of problems again.
+        </td>
+      </tr>
+      <tr>
+        <td>Home Tution</td>
+        <td>
+          If you can’t come to our academy to learn then this course is for you. Our expert teachers will come to your house to teach you so that you can complete your syllabus on time. This will help you to learn more effectively as their will be one on one interaction with the faculty.
+        </td>
+      </tr>
+
+      <tr>
+        <td>Online Classes</td>
+        <td>
+          If you have problem to attend classes in the coaching or if you don’t want any tutor to visit your home then this course is for you. The Teacher will teach you Online via laptop or mobile. This feature helps you to learn within your comfort zone. In the modern Generation this is the new step which we are taking towards your education. We think that a student can’t study until or unless he/she is in his/her comfort zone. Therefore we present to you ONLINE CLASSES.
+        </td>
+      </tr>
+    
+
+    </tbody>
+</table>
+
+
+
+
+<!-- boyd end -->
+
+    <div style="width: 100%; background-color: #6ff1b244; text-align: center; position: fixed;bottom:0;">
+        <p> <i class="fa fa-copyright" aria-hidden="true"></i>AKM</p>
+      </div>
+  
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+
+
+</body>
+</html>
