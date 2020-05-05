@@ -178,6 +178,7 @@ a{
 
 .cardBox .card .card-back .content >div:hover{
   scale: 1.2;
+  box-shadow: 5px 10px 8px 10px #888888;
 }
 
 
